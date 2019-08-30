@@ -19,10 +19,21 @@ body {
     background: #444;
     top:0;
     z-index: 9999;
-    line-height: 1px;
-    right: 0;
 }
 
+/*广告字体*/
+.adv-wrapper-text {
+    color: #a8a8aa;
+    font-size: 12px;
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+}
 /*导航容器 第一个盒子*/
 #ac-globalnav{
     position: fixed;
