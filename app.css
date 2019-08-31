@@ -16,7 +16,9 @@ body {
 #ac-globalnav {
     width: 100%;
     height: 44px;
-    background: rgba(45,45,45,0.98);
+    /*临时颜色*/
+    background: #5c5c5c;
+    /*background: rgba(45,45,45,0.98);*/
     color: #333333;
 }
 
@@ -30,6 +32,7 @@ body {
 
 /*第三个盒子*/
 .nav-top-list {
+    /*光标手*/
     cursor: default;
     margin: 0 -10px;
     width: auto;
@@ -40,12 +43,12 @@ body {
 
 
 .nav-top-item {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     display: inline-block;
-    position: relative;
-    height: 44px;
-    z-index: 1;
-    vertical-align: top;
+    /*position: relative;*/
+    /*height: 44px;*/
+    /*z-index: 1;*/
+    /*vertical-align: top;*/
 }
 
 
@@ -54,23 +57,16 @@ body {
     font-size: 14px;
     line-height: 3.14286;
     font-weight: 400;
-    letter-spacing: -.01em;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #fff;
-    position: relative;
-    z-index: 1;
+    /*position: relative;*/
+    /*z-index: 1;*/
     display: inline-block;
     padding: 0 10px;
     height: 44px;
     opacity: 1;
-    background: no-repeat;
-    text-decoration: none;
-    white-space: nowrap;
-    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-tap-highlight-color: transparent;
-    outline-offset: -7px;
 }
+
+
 
 .nav-top-text {
     clip-path: inset(0px 0px 99.9% 99.9%);
@@ -88,8 +84,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-origin: content-box;
-    background-size: cover;
-    width: 1.85714em;
+    /*background-size: cover;*/
+    /*width: 1.85714em;*/
 
 }
 
@@ -98,9 +94,9 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-origin: content-box;
-    background-size: cover;
-    width: 1.92857em;
-    max-width: 45.9px;
+    /*background-size: cover;*/
+    /*width: 1.92857em;*/
+    /*max-width: 45.9px;*/
 
 }
 .nav-top-ipone {
@@ -109,19 +105,19 @@ body {
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
-    width: 3.14286em;
-    max-width: 74.8px;
+    /*width: 3.14286em;*/
+    /*max-width: 74.8px;*/
 
 }
 .nav-top-watch {
     background-image: url("./image/watch.svg");
-    background-size: 40px 44px;
+    /*background-size: 40px 44px;*/
     background-repeat: no-repeat;
     background-position: center center;
     background-origin: content-box;
     /*background-size: cover;*/
-    width: 2.85714em;
-    max-width: 68px;
+    /*width: 2.85714em;*/
+    /*max-width: 68px;*/
 
 }
 .nav-top-music {
@@ -130,8 +126,8 @@ body {
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
-    width: 2.64286em;
-    max-width: 62.9px;
+    /*width: 2.64286em;*/
+    /*max-width: 62.9px;*/
 
 }
 .nav-top-support {
@@ -141,20 +137,19 @@ body {
     background-position: center center;
     background-origin: content-box;
     /*background-size: cover;*/
-    width: 3.71429em;
-    max-width: 88.4px;
+    /*max-width: 88.4px;*/
 
 }
 .nav-top-search {
     background-image: url("./image/search.svg");
-    background-size: 16px 44px;
+    /*background-size: 16px 44px;*/
     background-repeat: no-repeat;
     background-position: center center;
     width: 16px;
 }
 .nav-top-bag {
     background-image: url("./image/bag.svg");
-    background-size: 14px 44px;
+    /*background-size: 14px 44px;*/
     background-repeat: no-repeat;
     background-position: center center;
     width: 14px;
